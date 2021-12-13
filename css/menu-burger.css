@@ -171,7 +171,6 @@ body._touch .menu__list > li._active .menu__arrow {
 		top: 50%;
 		transform: scale(1) translate(0px, -50%);
 	}
-
 	.menu__icon._active span {
 		transform: scale(0) translate(0px, -50%);
 	}
@@ -219,7 +218,7 @@ body._touch .menu__list > li._active .menu__arrow {
 		display: block;
 	}
 	.menu__link {
-		font-size: 14px;
+		font-size: 18px;
 	}
 	.sub-menu__list {
 		position: relative;
@@ -235,7 +234,7 @@ body._touch .menu__list > li._active .menu__arrow {
     .contacts__number a {
         color: #000;
         text-decoration: underline;
-        font-size: 14px;
+        font-size: 18px;
         margin: 10px 0;
     }
 }
