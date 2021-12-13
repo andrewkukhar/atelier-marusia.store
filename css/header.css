@@ -79,6 +79,7 @@
 	background-color: #fff;
 	padding: 15px;
 	min-width: 200px;
+	width: 100%;
 }
 .sub-menu__list li {
 	margin: 0px 0px 10px 0px;
@@ -96,6 +97,12 @@
 }
 .menu__arrow {
 	display: none;
+}
+.photo-preview {
+	display: block;
+}
+.photo-preview img {
+	width: 25%;
 }
 body._pc .menu__list > li:hover .sub-menu__list {
 	opacity: 1;
@@ -242,5 +249,8 @@ body._touch .menu__list > li._active .menu__arrow {
 	}
 	#cont-link {
 		padding-top: 15px;
+	}
+	.photo-preview {
+		display: none;
 	}
 }
