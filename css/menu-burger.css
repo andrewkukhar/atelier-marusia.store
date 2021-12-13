@@ -228,7 +228,7 @@ body._touch .menu__list > li._active .menu__arrow {
 		display: none;
 	}
 	.sub-menu__link {
-		font-size: 14px;
+		font-size: 18px;
 		color: #000;
 	}
     .contacts__number a {
